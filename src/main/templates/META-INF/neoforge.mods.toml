@@ -88,11 +88,11 @@ A Create mod add-on to add craftable creative items.
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies.create_create_creative]]
     modId="create"
     type="required"
-    versionRange="[6.0.9,6.1.0)"
-    ordering="NONE"
+    versionRange="[6.0.9,)"
+    ordering="AFTER"
     side="BOTH"
 
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
