@@ -13,7 +13,7 @@ import net.minecraft.world.level.material.MapColor;
 public class VoidPumpBlock extends PumpBlock {
     public VoidPumpBlock() {
         super(BlockBehaviour.Properties.ofFullCopy(SharedProperties.copperMetal())
-                .mapColor(MapColor.STONE));
+            .mapColor(MapColor.STONE));
     }
 
     @SuppressWarnings("unchecked")

@@ -24,6 +24,6 @@ public class VoidPumpRenderer extends SafeBlockEntityRenderer<VoidPumpBlockEntit
         SuperByteBuffer cog = CachedBuffers.partialFacing(CCPartialModels.VOID_PUMP_COG, state);
 
         KineticBlockEntityRenderer.standardKineticRotationTransform(cog, be, light)
-                .renderInto(ms, buffer.getBuffer(RenderType.cutoutMipped()));
+            .renderInto(ms, buffer.getBuffer(RenderType.cutoutMipped()));
     }
 }
